@@ -3,7 +3,7 @@ import { Artist } from "../models/Artist";
 import { Album } from "../models/Album";
 import { Playlist } from "../models/Playlist";
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/jiva";
+const MONGODB_URI = process.env.MONGODB_URI || "MONGODB_URI=mongodb+srv://flownetic_db_user:jivamusic@jiva.qkxtrxl.mongodb.net/jiva?appName=jiva";
 
 const artists = [
   { name: "Tyla", genre: "Afropop", imageUrl: "https://picsum.photos/seed/tyla/300/300", monthlyListeners: 12400000, verified: true },

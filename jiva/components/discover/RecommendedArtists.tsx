@@ -47,9 +47,9 @@ export function RecommendedArtists() {
                   <Image
                     src={artist.imageUrl}
                     alt={artist.name}
-                    fill
+                    width={96}
+                    height={96}
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
-                    sizes="96px"
                   />
                 </div>
                 <div className="flex items-center gap-1 mb-0.5">

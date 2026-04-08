@@ -55,9 +55,9 @@ export function TrendingPlaylists() {
                   <Image
                     src={playlist.imageUrl}
                     alt={playlist.title}
-                    fill
+                    width={56}
+                    height={56}
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    sizes="56px"
                   />
                 </div>
 

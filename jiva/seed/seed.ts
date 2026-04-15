@@ -5,6 +5,7 @@ import { Playlist } from "../models/Playlist";
 
 const MONGODB_URI = process.env.MONGODB_URI || "MONGODB_URI=mongodb+srv://flownetic_db_user:jivamusic@jiva.qkxtrxl.mongodb.net/jiva?appName=jiva";
 
+
 const artists = [
   { name: "Tyla", genre: "Afropop", imageUrl: "https://picsum.photos/seed/tyla/300/300", monthlyListeners: 12400000, verified: true },
   { name: "Kendrick Lamar", genre: "Hip-Hop", imageUrl: "https://picsum.photos/seed/kendrick/300/300", monthlyListeners: 54000000, verified: true },
